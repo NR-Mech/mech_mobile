@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_otp_text_field/flutter_otp_text_field.dart';
-import 'package:medical_app/common/color_extension.dart';
-import 'package:medical_app/screen/login/verified_screen.dart';
+import 'package:mech/common/color_extension.dart';
+import 'package:mech/screen/login/verified_screen.dart';
 
 class OTPScreen extends StatefulWidget {
   const OTPScreen({super.key});
@@ -14,45 +14,46 @@ class _OTPScreenState extends State<OTPScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: SizedBox(
-          width: context.width,
-          height: context.height,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              SizedBox(
-                height: context.width * 0.3,
-              ),
-              Image.asset(
-                "assets/img/color_logo.png",
-                width: context.width * 0.33,
-              ),
-              SizedBox(
-                height: context.width * 0.05,
-              ),
-              Text(
-                "Enter Verification code",
-                style: TextStyle(
-                  color: TColor.primary,
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600,
+      backgroundColor: Colors.white,
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                const SizedBox(height: 60),
+                
+                Image.asset(
+                  "assets/img/color_logo.png",
+                  width: MediaQuery.of(context).size.width * 0.33,
                 ),
-              ),
-              const SizedBox(
-                height: 15,
-              ),
-              Text(
-                "Enter Six digit code that send to your\nMobile",
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: TColor.primaryText,
-                  fontSize: 14,
+                
+                const SizedBox(height: 60),
+                
+                Text(
+                  "Enter Verification code",
+                  style: TextStyle(
+                    color: TColor.primary,
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 30),
-                child: OtpTextField(
+                
+                const SizedBox(height: 15),
+                
+                Text(
+                  "Insira o código de verificação enviado para seu \nnúmero de telefone",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: TColor.primaryText,
+                    fontSize: 14,
+                  ),
+                ),
+                
+                const SizedBox(height: 30),
+                
+                OtpTextField(
                   numberOfFields: 6,
                   borderColor: TColor.placeholder,
                   focusedBorderColor: TColor.primary,
@@ -67,13 +68,15 @@ class _OTPScreenState extends State<OTPScreen> {
                   onCodeChanged: (value) {},
                   onSubmit: (value) {},
                 ),
-              ),
-              Padding(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-                child: InkWell(
+                
+                const SizedBox(height: 30),
+                
+                InkWell(
                   onTap: () {
-                    context.push( const VerifiedScreen() );
+                    Navigator.push(
+                      context, 
+                      MaterialPageRoute(builder: (context) => const VerifiedScreen())
+                    );
                   },
                   child: Container(
                     width: double.maxFinite,
@@ -93,14 +96,14 @@ class _OTPScreenState extends State<OTPScreen> {
                     ),
                   ),
                 ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: Row(
+                
+                const SizedBox(height: 20),
+                
+                Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Text(
-                      "Did not Receive code?",
+                      "Não recebeu o código?",
                       style: TextStyle(
                         color: TColor.primaryText,
                         fontSize: 12,
@@ -109,7 +112,7 @@ class _OTPScreenState extends State<OTPScreen> {
                     InkWell(
                       onTap: () {},
                       child: Text(
-                        " Resend it.",
+                        " Reenvie aqui.",
                         style: TextStyle(
                           color: TColor.primary,
                           fontSize: 12,
@@ -118,8 +121,10 @@ class _OTPScreenState extends State<OTPScreen> {
                     )
                   ],
                 ),
-              )
-            ],
+                
+                const SizedBox(height: 60),
+              ],
+            ),
           ),
         ),
       ),

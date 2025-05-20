@@ -1,4 +1,4 @@
-# medical_app
+# mech
 
 A new Flutter project.
 

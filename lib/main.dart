@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:medical_app/common/color_extension.dart';
-import 'package:medical_app/common/globs.dart';
-import 'package:medical_app/screen/login/splash_screen.dart';
+import 'package:mech/common/color_extension.dart';
+import 'package:mech/common/globs.dart';
+import 'package:mech/screen/login/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: "Poppins",
+        fontFamilyFallback: ["Noto"],
         scaffoldBackgroundColor: TColor.bg,
         appBarTheme:  AppBarTheme(
           elevation: 0,

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:medical_app/common/color_extension.dart';
+import 'package:mech/common/color_extension.dart';
 
 class SectionRow extends StatelessWidget {
   final String title;
   final String buttonTitle;
   final VoidCallback onPressed;
 
-  const SectionRow({super.key, required this.title,  this.buttonTitle = "See All", required this.onPressed});
+  const SectionRow({super.key, required this.title,  this.buttonTitle = "Veja Mais", required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
