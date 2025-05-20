@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:medicare/common/color_extension.dart';
-import 'package:medicare/common/globs.dart';
-import 'package:medicare/screen/login/splash_screen.dart';
+import 'package:medical_app/common/color_extension.dart';
+import 'package:medical_app/common/globs.dart';
+import 'package:medical_app/screen/login/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medicare/common/color_extension.dart';
+import 'package:medical_app/common/color_extension.dart';
 
 class SectionRow extends StatelessWidget {
   final String title;
