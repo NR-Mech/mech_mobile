@@ -27,7 +27,7 @@ class _DoctorsListScreenState extends State<DoctorsListScreen> {
           ),
         ),
         title: Text(
-          "Doctors List",
+          "Doutores",
           style: TextStyle(
             color: TColor.primaryTextW,
             fontSize: 16,
@@ -55,9 +55,9 @@ class _DoctorsListScreenState extends State<DoctorsListScreen> {
                 horizontal: 20,
               ),
               itemBuilder: (context, index) {
-                return  DoctorRow(
-                  onPressed: (){
-                    context.push( const DoctorProfileScreen() );
+                return DoctorRow(
+                  onPressed: () {
+                    context.push(const DoctorProfileScreen());
                   },
                 );
               },
