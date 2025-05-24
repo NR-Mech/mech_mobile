@@ -23,25 +23,20 @@ class _OTPScreenState extends State<OTPScreen> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 const SizedBox(height: 60),
-                
                 Image.asset(
                   "assets/img/color_logo.png",
                   width: MediaQuery.of(context).size.width * 0.33,
                 ),
-                
                 const SizedBox(height: 60),
-                
                 Text(
-                  "Enter Verification code",
+                  "Insira o código de verificação",
                   style: TextStyle(
                     color: TColor.primary,
                     fontSize: 20,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
-                
                 const SizedBox(height: 15),
-                
                 Text(
                   "Insira o código de verificação enviado para seu \nnúmero de telefone",
                   textAlign: TextAlign.center,
@@ -50,9 +45,7 @@ class _OTPScreenState extends State<OTPScreen> {
                     fontSize: 14,
                   ),
                 ),
-                
                 const SizedBox(height: 30),
-                
                 OtpTextField(
                   numberOfFields: 6,
                   borderColor: TColor.placeholder,
@@ -68,15 +61,13 @@ class _OTPScreenState extends State<OTPScreen> {
                   onCodeChanged: (value) {},
                   onSubmit: (value) {},
                 ),
-                
                 const SizedBox(height: 30),
-                
                 InkWell(
                   onTap: () {
                     Navigator.push(
-                      context, 
-                      MaterialPageRoute(builder: (context) => const VerifiedScreen())
-                    );
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const VerifiedScreen()));
                   },
                   child: Container(
                     width: double.maxFinite,
@@ -96,9 +87,7 @@ class _OTPScreenState extends State<OTPScreen> {
                     ),
                   ),
                 ),
-                
                 const SizedBox(height: 20),
-                
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
@@ -121,7 +110,6 @@ class _OTPScreenState extends State<OTPScreen> {
                     )
                   ],
                 ),
-                
                 const SizedBox(height: 60),
               ],
             ),
