@@ -15,18 +15,18 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   List pageArr = [
     {
       "img": "assets/img/on_board_1.png",
-      "title": "Find  Your Doctor",
-      "subtitle": "To find best Doctors from list\nNear by you",
+      "title": "Encontre seu médico",
+      "subtitle": "Para encontrar os melhores médicos da lista\nPerto de você",
     },
     {
       "img": "assets/img/on_board_2.png",
-      "title": "Easily Available   ",
-      "subtitle": "Easily  book appointment of specialist\nDoctors",
+      "title": "Facilmente disponível ",
+      "subtitle": "Agende facilmente uma consulta com médicos\nespecialistas",
     },
     {
       "img": "assets/img/on_board_3.png",
-      "title": "Full Satisfaction",
-      "subtitle": "Get full satisfaction of your\nProblems",
+      "title": "Satisfação Plena",
+      "subtitle": "Obtenha total satisfação com seus\nProblemas",
     },
   ];
 
