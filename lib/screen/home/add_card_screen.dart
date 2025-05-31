@@ -25,7 +25,7 @@ class _AddCardScreenState extends State<AddCardScreen> {
           ),
         ),
         title: Text(
-          "Add Your Card",
+          "Adicione um Cartão",
           style: TextStyle(
             color: TColor.primaryTextW,
             fontSize: 16,
@@ -65,7 +65,7 @@ class _AddCardScreenState extends State<AddCardScreen> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
               child: Text(
-                "Cardholder Name",
+                "Nome do Titular",
                 style: TextStyle(
                   color: TColor.black,
                   fontSize: 14,
@@ -89,7 +89,7 @@ class _AddCardScreenState extends State<AddCardScreen> {
                 decoration: InputDecoration(
                   enabledBorder: InputBorder.none,
                   focusedBorder: InputBorder.none,
-                  hintText: "Enter Name",
+                  hintText: "Insira o nome do titular do cartão",
                   hintStyle: TextStyle(color: TColor.secondaryText, fontSize: 14),
                 ),
               ),
@@ -97,7 +97,7 @@ class _AddCardScreenState extends State<AddCardScreen> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
               child: Text(
-                "Card Number",
+                "Número do Cartão",
                 style: TextStyle(
                   color: TColor.black,
                   fontSize: 14,
@@ -219,7 +219,7 @@ class _AddCardScreenState extends State<AddCardScreen> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
               child: Text(
-                "Valid Thru",
+                "Data de Validade",
                 style: TextStyle(
                   color: TColor.black,
                   fontSize: 14,
@@ -251,7 +251,7 @@ class _AddCardScreenState extends State<AddCardScreen> {
                         decoration: InputDecoration(
                           enabledBorder: InputBorder.none,
                           focusedBorder: InputBorder.none,
-                          hintText: "Month",
+                          hintText: "Mês",
                           hintStyle: TextStyle(
                               color: TColor.secondaryText, fontSize: 14),
                         ),
@@ -277,7 +277,7 @@ class _AddCardScreenState extends State<AddCardScreen> {
                         decoration: InputDecoration(
                           enabledBorder: InputBorder.none,
                           focusedBorder: InputBorder.none,
-                          hintText: "Year",
+                          hintText: "Ano",
                           hintStyle: TextStyle(
                               color: TColor.secondaryText, fontSize: 14),
                         ),
@@ -331,7 +331,7 @@ class _AddCardScreenState extends State<AddCardScreen> {
                     width: 8,
                   ),
                   Text(
-                    "3 or 4 digit code",
+                    "3 dígitos de segurança",
                     style: TextStyle(
                       color: TColor.black,
                       fontSize: 14,
@@ -356,7 +356,7 @@ class _AddCardScreenState extends State<AddCardScreen> {
                 ),
                 alignment: Alignment.center,
                 child: const Text(
-                  "Add Card Number",
+                  "Adicionar Número do Cartão",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 14,

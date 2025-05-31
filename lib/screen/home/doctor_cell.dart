@@ -84,7 +84,7 @@ class DoctorCell extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    "(4.5)",
+                    "(3.3)",
                     maxLines: 2,
                     style: TextStyle(
                       color: TColor.secondaryText,

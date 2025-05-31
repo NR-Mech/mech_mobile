@@ -90,7 +90,7 @@ class _DoctorProfileScreenState extends State<DoctorProfileScreen> {
                       Padding(
                         padding: const EdgeInsets.symmetric(vertical: 8),
                         child: Text(
-                          "Cardiologista\nBAMS, MBBS, MD, DDLT. ",
+                          "Cardiologista",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             color: TColor.secondaryText,
@@ -161,7 +161,7 @@ class _DoctorProfileScreenState extends State<DoctorProfileScreen> {
                             ),
                             const Spacer(),
                             Text(
-                              "50\$",
+                              "R\$500",
                               maxLines: 2,
                               style: TextStyle(
                                 color: TColor.primary,
@@ -169,7 +169,7 @@ class _DoctorProfileScreenState extends State<DoctorProfileScreen> {
                               ),
                             ),
                             Text(
-                              " Fees",
+                              " Por consulta",
                               maxLines: 2,
                               style: TextStyle(
                                 color: TColor.secondaryText,
@@ -188,7 +188,7 @@ class _DoctorProfileScreenState extends State<DoctorProfileScreen> {
                             return ClipRRect(
                               borderRadius: BorderRadius.circular(10),
                               child: Image.asset(
-                                "assets/img/u1.png",
+                                "assets/img/u2.jpg",
                                 width: context.width * 0.18,
                                 height: context.width * 0.18,
                                 fit: BoxFit.cover,
@@ -221,7 +221,7 @@ class _DoctorProfileScreenState extends State<DoctorProfileScreen> {
                             offset: Offset(0, 1))
                       ]),
                   child: Image.asset(
-                    "assets/img/u1.png",
+                    "assets/img/u2.jpg",
                     width: 120,
                     height: 120,
                     fit: BoxFit.cover,
@@ -251,7 +251,7 @@ class _DoctorProfileScreenState extends State<DoctorProfileScreen> {
                           children: [
                             Expanded(
                               child: Text(
-                                " Timings",
+                                " Horário de funcionamento",
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 14,
@@ -260,7 +260,7 @@ class _DoctorProfileScreenState extends State<DoctorProfileScreen> {
                               ),
                             ),
                             Text(
-                              "Temporary closed",
+                              "Fechado temporariamente",
                               style: TextStyle(
                                 color: Color(0xffDE8D8D),
                                 fontSize: 10,
@@ -273,7 +273,7 @@ class _DoctorProfileScreenState extends State<DoctorProfileScreen> {
                               ),
                             ),
                             Text(
-                              "Open ✓",
+                              "Aberto ✓",
                               style: TextStyle(
                                 color: Color(0xff3BB94F),
                                 fontSize: 12,
@@ -283,7 +283,7 @@ class _DoctorProfileScreenState extends State<DoctorProfileScreen> {
                           ],
                         ),
                         Text(
-                          "Mon-FRI ( 11:00am- 05:00pm)",
+                          "Seg-Sex ( 11:00 - 17:00)",
                           style: TextStyle(
                             color: TColor.unselect,
                             fontSize: 12,
@@ -293,7 +293,7 @@ class _DoctorProfileScreenState extends State<DoctorProfileScreen> {
                           height: 20,
                         ),
                         const Text(
-                          "Services and Facility",
+                          "Serviços e Instalações",
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 14,
@@ -304,21 +304,21 @@ class _DoctorProfileScreenState extends State<DoctorProfileScreen> {
                           height: 8,
                         ),
                         Text(
-                          "Cardiac Rehabilitisation",
+                          "Reabilitação Cardíaca",
                           style: TextStyle(
                             color: TColor.unselect,
                             fontSize: 12,
                           ),
                         ),
                         Text(
-                          "Cardiac Surgery",
+                          "Cirurgia Cardíaca",
                           style: TextStyle(
                             color: TColor.unselect,
                             fontSize: 12,
                           ),
                         ),
                         Text(
-                          "Cardiac Intensive care",
+                          "Cuidados Intensivos Cardíacos",
                           style: TextStyle(
                             color: TColor.unselect,
                             fontSize: 12,
@@ -511,7 +511,7 @@ class _DoctorProfileScreenState extends State<DoctorProfileScreen> {
                             ),
                             const Expanded(
                               child: Text(
-                                "+91 987654321",
+                                "85 987654321",
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 14,

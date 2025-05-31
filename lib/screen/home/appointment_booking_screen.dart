@@ -56,7 +56,7 @@ class _AppointmentBookingScreenState extends State<AppointmentBookingScreen> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
             child: Text(
-              "Date",
+              "Agendamento",
               style: TextStyle(
                 color: TColor.black,
                 fontSize: 14,
@@ -106,7 +106,7 @@ class _AppointmentBookingScreenState extends State<AppointmentBookingScreen> {
                   children: [
                     Expanded(
                       child: Text(
-                        selectDate?.date ?? "Select Date",
+                        selectDate?.date ?? "Selecione uma Data",
                         style: TextStyle(
                           color: selectDate == null
                               ? TColor.secondaryText
@@ -128,7 +128,7 @@ class _AppointmentBookingScreenState extends State<AppointmentBookingScreen> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
             child: Text(
-              "Reason For Visit",
+              "Motivo da Visita",
               style: TextStyle(
                 color: TColor.black,
                 fontSize: 14,
@@ -152,7 +152,7 @@ class _AppointmentBookingScreenState extends State<AppointmentBookingScreen> {
               decoration: InputDecoration(
                 enabledBorder: InputBorder.none,
                 focusedBorder: InputBorder.none,
-                hintText: "Enter Reason For Visit",
+                hintText: "Digite o Motivo da Visita",
                 hintStyle: TextStyle(color: TColor.secondaryText, fontSize: 14),
               ),
             ),
@@ -160,7 +160,7 @@ class _AppointmentBookingScreenState extends State<AppointmentBookingScreen> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
             child: Text(
-              "Massage",
+              "Mensagem",
               style: TextStyle(
                 color: TColor.black,
                 fontSize: 14,
@@ -184,7 +184,7 @@ class _AppointmentBookingScreenState extends State<AppointmentBookingScreen> {
               decoration: InputDecoration(
                 enabledBorder: InputBorder.none,
                 focusedBorder: InputBorder.none,
-                hintText: "Enter Your Message",
+                hintText: "Digite sua Mensagem",
                 hintStyle: TextStyle(color: TColor.secondaryText, fontSize: 14),
               ),
             ),
@@ -194,7 +194,7 @@ class _AppointmentBookingScreenState extends State<AppointmentBookingScreen> {
             child: Row(
               children: [
                 Text(
-                  "Fees - ",
+                  "Por Consulta",
                   style: TextStyle(
                     color: TColor.black,
                     fontSize: 14,
@@ -202,7 +202,7 @@ class _AppointmentBookingScreenState extends State<AppointmentBookingScreen> {
                   ),
                 ),
                 Text(
-                  "50\$",
+                  "R\$550",
                   style: TextStyle(
                     color: TColor.primary,
                     fontSize: 14,
@@ -227,7 +227,7 @@ class _AppointmentBookingScreenState extends State<AppointmentBookingScreen> {
               ),
               alignment: Alignment.center,
               child: const Text(
-                "Make a Payment",
+                "Fazer Pagamento",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 14,

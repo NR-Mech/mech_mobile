@@ -99,7 +99,7 @@ class _MainTabScreenState extends State<MainTabScreen>
                           ClipRRect(
                             borderRadius: BorderRadius.circular(10),
                             child: Image.asset(
-                              "assets/img/u1.png",
+                              "assets/img/u1.jpg",
                               width: 80,
                               height: 80,
                               fit: BoxFit.cover,

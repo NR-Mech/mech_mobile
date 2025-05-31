@@ -72,7 +72,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       Text(
-                        "Dr. Manish Chutale",
+                        "Dr. Hans Chucrute",
                         style: TextStyle(
                           color: TColor.black,
                           fontSize: 14,
@@ -82,7 +82,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                       Padding(
                         padding: const EdgeInsets.symmetric(vertical: 8),
                         child: Text(
-                          "Cardiologist\nBAMS, MBBS, MD, DDLT. ",
+                          "Cardiologista",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             color: TColor.secondaryText,
@@ -135,7 +135,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                         child: Row(
                           children: [
                             Text(
-                              "14",
+                              "28",
                               maxLines: 2,
                               style: TextStyle(
                                 color: TColor.primary,
@@ -144,7 +144,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                               ),
                             ),
                             Text(
-                              " Years Experience",
+                              " Anos de Experiência",
                               maxLines: 2,
                               style: TextStyle(
                                 color: TColor.secondaryText,
@@ -153,7 +153,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                             ),
                             const Spacer(),
                             Text(
-                              "50\$",
+                              "R\$850",
                               maxLines: 2,
                               style: TextStyle(
                                 color: TColor.primary,
@@ -161,7 +161,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                               ),
                             ),
                             Text(
-                              " Fees",
+                              " Por Consulta",
                               maxLines: 2,
                               style: TextStyle(
                                 color: TColor.secondaryText,
@@ -180,7 +180,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                             return ClipRRect(
                               borderRadius: BorderRadius.circular(10),
                               child: Image.asset(
-                                "assets/img/u1.png",
+                                "assets/img/u1.jpg",
                                 width: context.width * 0.18,
                                 height: context.width * 0.18,
                                 fit: BoxFit.cover,
@@ -213,7 +213,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                             offset: Offset(0, 1))
                       ]),
                   child: Image.asset(
-                    "assets/img/u1.png",
+                    "assets/img/u1.jpg",
                     width: 120,
                     height: 120,
                     fit: BoxFit.cover,
@@ -244,7 +244,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                           children: [
                             Expanded(
                               child: Text(
-                                " Timings",
+                                "Horário de funcionamento",
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 14,
@@ -253,7 +253,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                               ),
                             ),
                             Text(
-                              "Temporary closed",
+                              "Fechado temporariamente",
                               style: TextStyle(
                                 color: Color(0xffDE8D8D),
                                 fontSize: 10,
@@ -266,7 +266,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                               ),
                             ),
                             Text(
-                              "Open ✓",
+                              "Aberto ✓",
                               style: TextStyle(
                                 color: Color(0xff3BB94F),
                                 fontSize: 12,
@@ -276,7 +276,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                           ],
                         ),
                         Text(
-                          "Mon-FRI ( 11:00am- 05:00pm)",
+                          "Seg-Sex ( 11:00 - 17:00)",
                           style: TextStyle(
                             color: TColor.unselect,
                             fontSize: 12,
@@ -286,7 +286,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                           height: 20,
                         ),
                         const Text(
-                          "Services and Facility",
+                          "Serviços e Instalações",
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 14,
@@ -297,21 +297,21 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                           height: 8,
                         ),
                         Text(
-                          "Bed Facility",
+                            "Leito Hospitalar",
                           style: TextStyle(
                             color: TColor.unselect,
                             fontSize: 12,
                           ),
                         ),
                         Text(
-                          "ICU",
+                          "UTI",
                           style: TextStyle(
                             color: TColor.unselect,
                             fontSize: 12,
                           ),
                         ),
                         Text(
-                          "24 Hours Ambulance",
+                          "Ambulância 24x7",
                           style: TextStyle(
                             color: TColor.unselect,
                             fontSize: 12,
@@ -359,7 +359,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                         Padding(
                           padding: const EdgeInsets.symmetric(vertical: 8),
                           child: Text(
-                            "Plot No. 123, Behind Somalwada Highschool,Shankar Nagar,Nagpur",
+                            "Rua do Hospital, 123, Universitário, Caruaru, 12345-678",
                             style: TextStyle(
                               color: TColor.unselect,
                               fontSize: 12,
@@ -400,7 +400,7 @@ class _OnlyDoctorProfileScreenState extends State<OnlyDoctorProfileScreen> {
                             ),
                             const Expanded(
                               child: Text(
-                                "+91 987654321",
+                                "81 987654321",
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 14,

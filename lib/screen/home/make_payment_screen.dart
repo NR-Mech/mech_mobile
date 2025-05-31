@@ -90,7 +90,7 @@ class _MakePaymentScreenState extends State<MakePaymentScreen> {
                     width: 20,
                   ),
                   Text(
-                    "Dr.Manish Chutake",
+                    "Dr. Hans ",
                     style: TextStyle(
                       color: TColor.black,
                       fontSize: 14,
@@ -131,7 +131,7 @@ class _MakePaymentScreenState extends State<MakePaymentScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "Home Adress",
+                          "Endereço",
                           style: TextStyle(
                             color: TColor.black,
                             fontSize: 14,
@@ -139,7 +139,7 @@ class _MakePaymentScreenState extends State<MakePaymentScreen> {
                           ),
                         ),
                         Text(
-                          "D Block  Ram Nagar ,Near Sai Petrol Pump Ring Road Nagpur-440001",
+                          "Rua 1, Bairro 2, Cidade 3",
                           style: TextStyle(
                             color: TColor.secondaryText,
                             fontSize: 12,
@@ -161,7 +161,7 @@ class _MakePaymentScreenState extends State<MakePaymentScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "Credit / Debit Cards",
+                    "Cartões",
                     style: TextStyle(
                       color: TColor.black,
                       fontSize: 14,
@@ -173,7 +173,7 @@ class _MakePaymentScreenState extends State<MakePaymentScreen> {
                       context.push(const AddCardScreen());
                     },
                     child: Text(
-                      "Add NEW CARD",
+                      "Adicione um Novo Cartão",
                       style: TextStyle(
                         color: TColor.primary,
                         fontSize: 14,
@@ -211,7 +211,7 @@ class _MakePaymentScreenState extends State<MakePaymentScreen> {
                               ),
                             ),
                             Text(
-                              "Manish Chutake",
+                              "Hans Chucrute",
                               style: TextStyle(
                                 color: TColor.secondaryText,
                                 fontSize: 12,
@@ -240,7 +240,7 @@ class _MakePaymentScreenState extends State<MakePaymentScreen> {
                 ),
               ),
               Text(
-                "Save and Pay via cards",
+                "Cartões Aceitos",
                 style: TextStyle(
                   color: TColor.secondaryText,
                   fontSize: 10,
