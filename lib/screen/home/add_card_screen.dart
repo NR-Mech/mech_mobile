@@ -331,7 +331,7 @@ class _AddCardScreenState extends State<AddCardScreen> {
                     width: 8,
                   ),
                   Text(
-                    "3 dígitos de segurança atrás do cartão",
+                    "3 dígitos de segurança",
                     style: TextStyle(
                       color: TColor.black,
                       fontSize: 14,
