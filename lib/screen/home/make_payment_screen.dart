@@ -161,7 +161,7 @@ class _MakePaymentScreenState extends State<MakePaymentScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "Cartões de Crédito / ébito",
+                    "Cartões",
                     style: TextStyle(
                       color: TColor.black,
                       fontSize: 14,
