@@ -16,7 +16,7 @@ class DoctorRow extends StatelessWidget {
           ClipRRect(
             borderRadius: BorderRadius.circular(5),
             child: Image.asset(
-              "assets/img/u1.png",
+              "assets/img/u2.jpg",
               width: 80,
               height: 80,
               fit: BoxFit.cover,
@@ -51,7 +51,7 @@ class DoctorRow extends StatelessWidget {
                   height: 2,
                 ),
                 Text(
-                  "Nagpur - 2 Km",
+                  "Doomstadt - X Km",
                   maxLines: 2,
                   style: TextStyle(
                     color: TColor.secondaryText,

@@ -43,7 +43,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          "Jai Ambey Medical",
+                          "Farmácia",
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 14,
@@ -57,7 +57,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                       children: [
                         Expanded(
                           child: Text(
-                            "Plot No. 123, Behind Somalwada Highschool,Shankar Nagar,Nagpur",
+                            "Rua Tanto Faz, Bairro Qualquer, Cidade X",
                             textAlign: TextAlign.center,
                             style: TextStyle(
                                 color: TColor.secondaryText, fontSize: 12),
@@ -123,7 +123,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                               ),
                               Expanded(
                                 child: Text(
-                                  " Years Experience",
+                                  " Anos de experiência",
                                   style: TextStyle(
                                     color: TColor.secondaryText,
                                     fontSize: 14,
@@ -131,7 +131,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                                 ),
                               ),
                               Text(
-                                "2021",
+                                "250 ",
                                 style: TextStyle(
                                   color: TColor.primary,
                                   fontSize: 12,
@@ -139,7 +139,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                                 ),
                               ),
                               Text(
-                                " Votes",
+                                "Reviews",
                                 style: TextStyle(
                                   color: TColor.secondaryText,
                                   fontSize: 12,
@@ -164,7 +164,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                             children: [
                               Expanded(
                                 child: Text(
-                                  " Timings",
+                                  " Horário de funcionamento",
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: 14,
@@ -173,7 +173,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                                 ),
                               ),
                               Text(
-                                "Temporary closed",
+                                "Fechado temporariamente",
                                 style: TextStyle(
                                   color: Color(0xffDE8D8D),
                                   fontSize: 10,
@@ -196,7 +196,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                             ],
                           ),
                           Text(
-                            "Mon-FRI ( 11:00am- 05:00pm)",
+                            "Seg-Sex ( 11:00 - 17:00)",
                             style: TextStyle(
                               color: TColor.unselect,
                               fontSize: 12,
@@ -216,7 +216,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text(
-                            " VERIFICATION DONE FOR",
+                            "Verificado por: ",
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 14,
@@ -224,7 +224,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                             ),
                           ),
                           Text(
-                            "- Medical License",
+                            "Receita Médica",
                             style: TextStyle(
                               color: TColor.unselect,
                               fontSize: 12,
@@ -244,7 +244,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text(
-                            "Services",
+                            "Serviços",
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 14,
@@ -252,7 +252,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                             ),
                           ),
                           Text(
-                            "Home Delivery",
+                            "Entrega em domicílio",
                             style: TextStyle(
                               color: TColor.unselect,
                               fontSize: 12,
@@ -272,7 +272,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text(
-                            "Modes of Payment",
+                            "Formas de Pagamento",
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 14,
@@ -282,7 +282,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                           Padding(
                             padding: const EdgeInsets.symmetric(vertical: 4),
                             child: Text(
-                              "Cash",
+                              "Dinheiro",
                               style: TextStyle(
                                 color: TColor.unselect,
                                 fontSize: 12,
@@ -292,7 +292,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                           Padding(
                             padding: const EdgeInsets.symmetric(vertical: 4),
                             child: Text(
-                              "Master card",
+                              "PIX",
                               style: TextStyle(
                                 color: TColor.unselect,
                                 fontSize: 12,
@@ -302,7 +302,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                           Padding(
                             padding: const EdgeInsets.symmetric(vertical: 4),
                             child: Text(
-                              "Debit card",
+                              "Cartão de débito",
                               style: TextStyle(
                                 color: TColor.unselect,
                                 fontSize: 12,
@@ -312,7 +312,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                           Padding(
                             padding: const EdgeInsets.symmetric(vertical: 4),
                             child: Text(
-                              "Credit card",
+                              "Cartão de crédito",
                               style: TextStyle(
                                 color: TColor.unselect,
                                 fontSize: 12,
@@ -322,7 +322,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                           Padding(
                             padding: const EdgeInsets.symmetric(vertical: 4),
                             child: Text(
-                              "Visa card",
+                              "A vista",
                               style: TextStyle(
                                 color: TColor.unselect,
                                 fontSize: 12,
@@ -343,7 +343,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text(
-                            "Contact",
+                            "Contato",
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 14,
@@ -362,7 +362,7 @@ class _MedicalShopProfileScreenState extends State<MedicalShopProfileScreen> {
                                 width: 8,
                               ),
                               const Text(
-                                "+91 987654321",
+                                "81 987654321",
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 14,

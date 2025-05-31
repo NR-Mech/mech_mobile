@@ -26,7 +26,7 @@ class _ChatMessageScreenState extends State<ChatMessageScreen> {
         title: Row(
           children: [
             Text(
-              "Dr. Manish Chutake",
+              "Dr. Hans Chucrute",
               style: TextStyle(
                 color: TColor.primaryText,
                 fontSize: 14,
@@ -104,7 +104,7 @@ class _ChatMessageScreenState extends State<ChatMessageScreen> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(20),
                       child: Image.asset(
-                        "assets/img/u1.png",
+                        "assets/img/u1.jpg",
                         width: 40,
                         height: 40,
                       ),
@@ -135,7 +135,7 @@ class _ChatMessageScreenState extends State<ChatMessageScreen> {
                           ),
                   ),
                   child: Text(
-                    "Hi  Doctor, as per discussion Plz gave me medicine on my Fever and reaction on skin.",
+                    "Isso aqui é uma mensagem de teste.",
                     style: TextStyle(
                       color:
                           isSenderMessage ? TColor.primaryText : Colors.white,
@@ -188,7 +188,7 @@ class _ChatMessageScreenState extends State<ChatMessageScreen> {
                       decoration: InputDecoration(
                           enabledBorder: InputBorder.none,
                           focusedBorder: InputBorder.none,
-                          hintText: "Type something ...",
+                          hintText: "Digite algo ...",
                           hintStyle: TextStyle(
                               // ignore: deprecated_member_use
                               color: Colors.white.withOpacity(0.7),

@@ -36,12 +36,12 @@ class _HomeTabScreenState extends State<HomeTabScreen> {
     {
       "name": "Dr. Doom",
       "degree": "Místico Geral",
-      "img": "assets/img/u2.png"
+      "img": "assets/img/u2.jpg"
     },
     {
       "name": "Dr. Mistério",
       "degree": "Mágico Tecnológico",
-      "img": "assets/img/u3.png"
+      "img": "assets/img/u3.jpeg"
     },
     
   ];
